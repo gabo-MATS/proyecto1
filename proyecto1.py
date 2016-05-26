@@ -14,3 +14,7 @@ def prob_4 (C,l):
 	l=l-h
 	l=l//2
 	return ("*"*l, c , "*"*l)	
+
+def prob_5 (a,b):
+	res= (a[0]*b[0])+(a[1]*b[1])
+	return res 
