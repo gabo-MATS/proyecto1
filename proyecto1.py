@@ -8,3 +8,9 @@ def prob_2 (f):
 def prob_3 (b,p):
 	res=b**p
 	return res 
+
+def prob_4 (C,l):
+	h = len c
+	l=l-h
+	l=l//2
+	return ("*"*l, c , "*"*l)	
