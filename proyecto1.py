@@ -18,3 +18,8 @@ def prob_4 (C,l):
 def prob_5 (a,b):
 	res= (a[0]*b[0])+(a[1]*b[1])
 	return res 
+
+def prob_6 (l):
+	l.sort()
+	l.reverse()
+	return l 
