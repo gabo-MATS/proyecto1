@@ -6,14 +6,18 @@ def prob_2 (f):
 	return c 
 
 def prob_3 (b,p):
-	res=b**p
+	res=1
+	for i in range (p):
+		res=res*b
+		i=i+1	
 	return res 
 
 def prob_4 (C,l):
 	h = len c
-	l=l-h
-	l=l//2
-	return ("*"*l, c , "*"*l)	
+	li=l-h
+	li=li//2
+	ld=l-li
+	return ("*"*li, c , "*"*ld)	
 
 def prob_5 (a,b):
 	res= (a[0]*b[0])+(a[1]*b[1])
